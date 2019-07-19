@@ -44,7 +44,7 @@ taskkill [/s <computer> [/u [<Domain>\]<UserName> [/p [<Password>]]]] {[/fi <Fil
 
 | Filter Name |    Valid Operators     |                                                                Valid Value(s)                                                                |
 |-------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-|   STatUS    |         eq, ne         |                                                 RUNNING &#124; NOT RESPONDING &#124; UNKNOWN                                                 |
+|   STATUS    |         eq, ne         |                                                 RUNNING &#124; NOT RESPONDING &#124; UNKNOWN                                                 |
 |  IMAGENAME  |         eq, ne         |                                                                  Image name                                                                  |
 |     PID     | eq, ne, gt, lt, ge, le |                                                                  PID value                                                                   |
 |   SESSION   | eq, ne, gt, lt, ge, le |                                                                Session number                                                                |
